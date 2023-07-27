@@ -4,6 +4,7 @@ function linkWhats(){
     window.open('https://api.whatsapp.com/send?phone=' + numFone)
 }
 
+// carrosel de avaliações
 
 let slideAtual = 0;
 const slides = document.getElementsByClassName('slide');
@@ -26,3 +27,11 @@ function mudarSlide(direcao) {
 }
 
 mostrarSlide(slideAtual);
+
+
+// menu hamburguer
+document.querySelector(".abrir-menu").onclick = function () {
+  document.documentElement.classList.add("menu-ativo");
+}
+document.querySelector(".fechar-menu").onclick = function () {
+  document.documentElement.classList.remove("menu-ativo")}

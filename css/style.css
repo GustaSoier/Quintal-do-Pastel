@@ -14,12 +14,23 @@ body{
 /* #endregion global */
 
 /* #region header */
+h1 img{
+    width: 120px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+header button{
+    display: none;
+}
+
 header nav{
     background-color: rgb(255, 240, 105);
     display: flex;
     align-items: center;
     justify-content: space-around;
     box-shadow: 0 1px 90px rgb(121, 121, 121);
+    height: 110px;
 }
 
 header i{
@@ -43,17 +54,14 @@ header a:hover{
     color: rgb(255, 255, 255);
 }
 
-h1 img{
-    width: 120px;
-}
 /* #endregion global */
 
 /* #region sobre */
 .sobre{
     display: flex;
     align-items: center;
-    margin-top: -7rem;
-    height: 93vh;
+    margin-top: -2rem;
+    height: 90vh;
 }
 
 .sobre div:nth-child(2n-1){
@@ -160,7 +168,7 @@ h1 img{
 
 .conteudo-queridinhos img{
     width: 320px;
-    height: 180px;
+    height: 65%;
     border-radius: 25px;
 }
 
@@ -447,3 +455,162 @@ h1 img{
     padding: 6px 0;
 }
 /* #endregion rodape */
+
+
+/* #region responsive */
+
+/* #region responsive 1500 até 601 */
+@media (max-width: 1500px){
+.instagram div:nth-child(1){
+    margin-left: 0;
+}
+.carrossel{
+    margin: 0 25%;
+}
+}
+
+@media (max-width: 1270px){
+.carousel-sobre {
+    width: 500px;
+}
+.carousel-container img {
+    width: 400px;
+}
+
+.conteudo-queridinhos{
+    margin-left: 0;
+    margin: 0 2.5rem;
+}
+
+.conteudo-queridinhos div{
+    margin:  0 1%;
+    padding: 15px;
+}
+
+.conteudo-queridinhos img:hover{
+    transform: none;
+}
+.carrossel{
+    margin: 0 20%;
+}
+
+.instagram{
+    margin: 10%;
+}
+
+.instagram img{
+    width: 300px;
+}
+
+.instagram div{
+    margin: 0 1%;
+}
+
+.conteudo-localizacao p{
+    font-size: 1rem;
+}
+
+.conteudo-localizacao iframe{
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+}
+}
+
+@media (max-width: 1110px){
+.conteudo-queridinhos img{
+    width: 250px;
+}
+
+.conteudo-queridinhos div{
+    margin:  0 1%;
+    padding: 10px 20px;
+}
+
+.carrossel{
+    margin: 0 15%;
+}
+
+.conteudo-localizacao p{
+    width: 100%;
+    margin-left: 0;
+}
+}
+
+@media (max-width: 1040px){
+.carrossel{
+    margin: 0 12.5%;
+}
+
+.conteudo-queridinhos img{
+    height: 60%;
+}
+
+.instagram{
+    margin: 10%;
+}
+
+.instagram h2{
+    font-size: 1.5rem;
+}
+
+.instagram img{
+    width: 250px;
+}
+
+.conteudo-localizacao p{
+    width: 100%;
+}
+
+.conteudo-localizacao iframe{
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+}
+}
+
+@media (max-width: 925px){
+.sobre h2{
+    font-size: 3rem;
+}
+
+.carousel-sobre {
+    width: 400px;
+}
+.carousel-container img {
+    width: 350px;
+}
+    
+.conteudo-queridinhos div{
+    width: 220px;
+}
+
+.conteudo-queridinhos img{
+    height: 50%;
+    width: 100%;
+}
+
+.instagram{
+    margin: 10% 15%;
+}
+
+.instagram img{
+    width: 200px;
+}
+
+.carrossel{
+    margin: 0 10%;
+    margin-bottom: 5%;
+}
+
+.conteudo-localizacao iframe{
+    width: 450px;
+}
+}
+
+@media (max-width: 820px){
+    
+}
+/* #endregion endresponsive 1500 até 601 */
+
+/* #endregion responsive */
