@@ -842,6 +842,7 @@ h1{
 .sobre a{
     font-size: 13px;
     padding: 10px 15px;
+    margin-right: 0;
 }
 
 .sobre div:nth-child(2n-1){
@@ -1046,6 +1047,12 @@ h1{
 
 .direitos h4{
     font-size: 11px;
+}
+
+.whatsapp img{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
 }
 }
 /* #endregion responsive 600 até 300*/
