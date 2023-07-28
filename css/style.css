@@ -25,6 +25,8 @@ header button{
 }
 
 header nav{
+    text-transform: uppercase;
+    font-weight: bold;
     background-color: rgb(255, 240, 105);
     display: flex;
     align-items: center;
@@ -411,7 +413,7 @@ header a:hover{
 .rodape div{
     display: flex;
     flex-direction: column;
-    max-width: 20%;
+    max-width: 40%;
     text-align: center;
     align-items: center;
 }
@@ -715,6 +717,13 @@ main{
     margin: 0 5%;
 }
 
+header ul{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .menu{
     display: block;
     height: 100%;
@@ -726,11 +735,14 @@ main{
     width: 50%;
     z-index: 9;    
     transition: right .6s ease-out;       
-    box-shadow: none;    
-    background-color: rgb(240, 227, 55);          
+    box-shadow: -1px 0 30px black;    
+    background: url(../img/Animated\ Shape\ \(2\).svg);
+    background-color: rgb(255, 238, 0);          
 }
       
 .menu .links-nav ul{
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
@@ -753,6 +765,7 @@ main{
     background: url(../img/abrir-menu.png);
     background-size: cover;
     display: flex;
+    margin-left: 50%;
     padding: 20px;
     border: 0;
     margin: 5% 0 0 5%;
@@ -771,6 +784,7 @@ main{
     border: 0;
     margin-left: 10%;
     margin-bottom: 10%;
+    margin-top: 10%;
     transition: all .5s ease;
 }
       
@@ -782,55 +796,180 @@ main{
     right: 0;
 }
 
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .sobre{
     width: 350px;
     min-height: 0;
-    margin-top: 7rem;
+    margin-top: 2rem;
+}
+
+.sobre h2{
+    font-size: 1.7rem;
+}
+
+.sobre p{
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+
+.sobre a{
+    font-size: 13px;
+    padding: 10px 15px;
 }
 
 .sobre div:nth-child(2n-1){
     width: 100%;
 }
 
-.sobre a{
-    margin-right: 0;
+.queridinhos h2{
+    margin-top: 15%;
+    font-size: 1.5rem;
 }
 
-.queridinhos h2{
-    margin-top: 50%;
+.queridinhos a{
+    font-size: 14px;
+    padding: 10px 15px;
 }
 
 .conteudo-queridinhos div{
-    width: 270px;
+    width: 160px;
     margin-left: 0;
     margin-top: 5%;
 }
 
 .conteudo-queridinhos div:nth-child(2){
-    margin-left: 20%;
+    margin-left: 45%;
+}
+
+.conteudo-queridinhos h3{
+    font-size: 16px;
+}
+
+.conteudo-queridinhos p{
+    font-size: 14px;
+}
+
+.conteudo-queridinhos img:hover{
+    transform: scale(1.1);
+}
+
+.cardapio{
+    margin: 20% 0 0 0;
+}
+
+.cardapio h2{
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    margin-bottom: 5%;
 }
 
 .conteudo-cardapio{
     display: flex;
     flex-direction: column;
 }
+
+.conteudo-cardapio div{
+    margin-bottom: 5%;
+}
+
+.conteudo-cardapio h3{
+    font-size: 16px;
+}
+
+.conteudo-cardapio p{
+    font-size: 14px;
+}
+
 .avaliacao{
     margin: 10% 0%;
 }
 
+.avaliacao h2{
+    font-size: 1.5rem;
+}
+
+.avaliacao h3{
+    font-size: 17px;
+}
+
+
 .slide{
-    width: 300px;
-    height: 450px;
-    margin-bottom: 10%;
+    width: 280px;
+    height: 300px;
+    margin-bottom: 6%;
+}
+
+.slide-1 img{
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.slide-2 img{
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.slide-3 img{
+    margin-top: 4%;
+    margin-bottom: 5%;
+}
+
+.slide h4{
+    font-size: 18px;
+}
+
+.slide h5{
+    margin: 0;
+}
+
+.slide i{
+    top: 120px;
+    left: 25px;
+    font-size: 18px;
+}
+
+.slide-2 i{
+    left: 20px;
+}
+
+.slide p{
+    font-size: 14px;
 }
 
 .carrossel{
-
     width: 300px;
 }
+
+.instagram{
+    margin-top: 15%;
+}
+
 .instagram div{
     display: flex;
     flex-direction: column;
+}
+
+.instagram img{
+    margin-left: 15%;
+    width: 200px;
+}
+
+.instagram h2{
+    font-size: 1.3rem;
+}
+
+.botao-proximo, .botao-anterior{
+    padding: 15px;
 }
 
 .conteudo-localizacao{
@@ -840,7 +979,6 @@ main{
 .rodape{
     flex-direction: column;
     padding: 0;
-    background-image: url(../img/fundo-rodape-600.svg);
 }
   
 .rodape p{
@@ -864,9 +1002,12 @@ main{
 }
   
 .rodape div:nth-child(3){
-    margin-left: 60%;
+    margin-left: 50%;
 }
 
+.direitos h4{
+    font-size: 11px;
+}
 }
 /* #endregion responsive 600 até 300*/
 
