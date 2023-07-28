@@ -1,3 +1,10 @@
+// menu hamburguer
+document.querySelector(".abrir-menu").onclick = function () {
+  document.documentElement.classList.add("menu-ativo");
+}
+document.querySelector(".fechar-menu").onclick = function () {
+  document.documentElement.classList.remove("menu-ativo")}
+
 // função para enviar mensagem para o whatsapp
 function linkWhats(){
     var numFone = '5511953710475'
@@ -27,11 +34,3 @@ function mudarSlide(direcao) {
 }
 
 mostrarSlide(slideAtual);
-
-
-// menu hamburguer
-document.querySelector(".abrir-menu").onclick = function () {
-  document.documentElement.classList.add("menu-ativo");
-}
-document.querySelector(".fechar-menu").onclick = function () {
-  document.documentElement.classList.remove("menu-ativo")}
