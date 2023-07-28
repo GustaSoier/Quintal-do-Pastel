@@ -972,8 +972,30 @@ h1{
     padding: 15px;
 }
 
+.localizacao{
+    margin-top: 20%;
+}
+
+.localizacao h2{
+    font-size: 1.5rem;
+}
+
+.conteudo-localizacao h3{
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.conteudo-localizacao p{
+    font-size: 14px;
+}
+
 .conteudo-localizacao{
     flex-direction: column-reverse;
+}
+
+.conteudo-localizacao div{
+    margin: 0;
+    padding: 0
 }
 
 .rodape{
@@ -987,6 +1009,7 @@ h1{
   
 .rodape h3{
     font-size: 17px;
+    margin: 0;
 }
   
 .rodape a{
@@ -994,7 +1017,7 @@ h1{
 }
   
 .rodape div{
-    margin: 5% 5%;
+    margin: 0 5%;
 }
   
 .rodape div:nth-child(1){
