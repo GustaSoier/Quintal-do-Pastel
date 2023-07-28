@@ -20,6 +20,10 @@ h1 img{
     margin-top: 10px;
 }
 
+.logo2{
+    display: none;
+}
+
 header button{
     display: none;
 }
@@ -31,7 +35,7 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0 1px 90px rgb(121, 121, 121);
+    box-shadow: 0 1px 20px rgb(121, 121, 121);
     height: 110px;
 }
 
@@ -197,11 +201,10 @@ header a:hover{
 }
 
 .cardapio h2{
-    text-align: start;
+    text-align: center;
     text-transform: uppercase;
     text-shadow: 5px 5px 20px yellow;
     margin-bottom: 3%;
-    margin-left: 4rem;
     font-size: 1.8rem;
 }
 
@@ -217,7 +220,7 @@ header a:hover{
 
 .conteudo-cardapio div{
     background-color: white;
-    margin: 0 4%;
+    margin: 0 1%;
     padding: 15px 30px;
     border-radius: 10px;
 }
@@ -404,7 +407,7 @@ header a:hover{
 /* #region rodape */
 .rodape{
     background-color: rgb(240, 227, 55);
-    box-shadow: 0 1px 90px rgb(121, 121, 121);
+    box-shadow: 0 1px 20px rgb(121, 121, 121);
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0;
@@ -713,15 +716,31 @@ header span{
 
 /* #region responsive 600 até 300 */
 @media (max-width: 600px){
-main{
-    margin: 0 5%;
+header{
+    margin-top: 5%;
+}
+
+h1 img{
+    display: none;
+}
+
+.logo2{
+    margin-top: -4rem;
+    margin-left: 5%;
+    width: 100px;
+    height: 100px;
+    display: flex;
 }
 
 header ul{
-    margin: 0;
+    margin: 0 15% 0 0;
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+header a{
+    color: #000000;
 }
 
 .menu{
@@ -753,8 +772,7 @@ header ul{
 }
       
 .menu a{
-    color: #f2f2f2;
-    letter-spacing: 3px;    
+    letter-spacing: 2px;    
 }
       
 .menu a:hover{
@@ -765,10 +783,9 @@ header ul{
     background: url(../img/abrir-menu.png);
     background-size: cover;
     display: flex;
-    margin-left: 50%;
     padding: 20px;
     border: 0;
-    margin: 5% 0 0 5%;
+    margin: 5% 0 0 80%;
     transition: all .5s ease;
 }
       
@@ -802,15 +819,15 @@ h1{
 }
 
 .number{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
 }
 
 .sobre{
+    text-align: center;
     width: 350px;
     min-height: 0;
     margin-top: 2rem;
+    margin: 0 5%;
 }
 
 .sobre h2{
@@ -829,6 +846,10 @@ h1{
 
 .sobre div:nth-child(2n-1){
     width: 100%;
+}
+
+.queridinhos{
+    margin: 0 5%;
 }
 
 .queridinhos h2{
@@ -864,13 +885,14 @@ h1{
 }
 
 .cardapio{
-    margin: 20% 0 0 0;
+    margin: 20% 5% 0 5%;
 }
 
 .cardapio h2{
-    font-size: 1.5rem;
-    margin-left: 5rem;
+    text-align: center;
+    font-size: 1.4rem;
     margin-bottom: 5%;
+    margin-left: 0;
 }
 
 .conteudo-cardapio{
@@ -901,7 +923,6 @@ h1{
 .avaliacao h3{
     font-size: 17px;
 }
-
 
 .slide{
     width: 280px;
@@ -960,8 +981,8 @@ h1{
 }
 
 .instagram img{
-    margin-left: 15%;
-    width: 200px;
+    margin-left: 0;
+    width: 300px;
 }
 
 .instagram h2{
@@ -991,11 +1012,6 @@ h1{
 
 .conteudo-localizacao{
     flex-direction: column-reverse;
-}
-
-.conteudo-localizacao div{
-    margin: 0;
-    padding: 0
 }
 
 .rodape{
@@ -1035,3 +1051,13 @@ h1{
 /* #endregion responsive 600 até 300*/
 
 /* #endregion responsive */
+
+.whatsapp{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: #00ff3700;
+}

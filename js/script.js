@@ -7,7 +7,7 @@ document.querySelector(".fechar-menu").onclick = function () {
 
 // função para enviar mensagem para o whatsapp
 function linkWhats(){
-    var numFone = '5511953710475'
+    var numFone = '5511910799496'
     window.open('https://api.whatsapp.com/send?phone=' + numFone)
 }
 
