@@ -178,9 +178,9 @@ header a:hover{
     border-radius: 25px;
 }
 
-.conteudo-queridinhos img:hover{
+.conteudo-queridinhos div:hover{
     transform: scale(1.1);
-    transition: all .3s ease-in;
+    transition: all .4s ease-in;
 }
 
 .conteudo-queridinhos div{
@@ -276,9 +276,10 @@ header a:hover{
 }
 
 .slide i{
+    font-size: 25px;
     position: absolute;
     left: 25px;
-    top: 160px;
+    top: 155px;
 }
 
 .slide p{
@@ -288,7 +289,8 @@ header a:hover{
 
 .slide-1 {
     background-color: #fff;
-     
+    padding: 10px 10px;
+    border-radius: 10px; 
 }
 
 .slide-1 img{
@@ -299,10 +301,6 @@ header a:hover{
     background-color: #fff;
     padding: 10px 10px;
     border-radius: 10px; 
-}
-
-.slide-2 i{
-    left: 45px;
 }
 
 .slide-2 img{
@@ -318,6 +316,37 @@ header a:hover{
 .slide-3 img{
     width: 200px;
 }
+
+.slide-4 {
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 10px; 
+}
+
+.slide-4 img{
+    width: 200px;
+}
+
+.slide-5 {
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 10px; 
+}
+
+.slide-5 img{
+    width: 200px;
+}
+
+.slide-6 {
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 10px; 
+}
+
+.slide-6 img{
+    width: 200px;
+}
+
   
 .botoes {
     text-align: center;
@@ -357,6 +386,64 @@ header a:hover{
     border-radius: 10px;
 }
 /* #endregion instagram */
+
+/* #region ifood */
+.conteudo-ifood{
+    margin: 0 10%;
+    display: flex;
+    align-items: center;
+    background-color: #faa827;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 50px;
+    height: 300px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.conteudo-ifood div:nth-child(1){
+    justify-content: start;
+}
+
+.conteudo-ifood div:nth-child(2){   
+    margin-left: 20%;
+}
+
+.conteudo-ifood h2{
+    font-size: 1.8rem;
+    margin-bottom: 7%;
+}
+
+.conteudo-ifood h3{
+    font-weight: 500;
+    margin-bottom: 13%;
+}
+
+.link-ifood{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 17px;
+    font-size: 18px;
+    width: 40%;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.link-ifood:hover{
+    background-color: #faa827;
+    transition: all .2s ease-in;
+}
+
+.link-ifood a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.link-ifood-mobile a{
+    display: none;
+}
+/* #endregion ifood */
 
 /* #region localização */
 .localizacao{
@@ -881,10 +968,6 @@ h1{
     font-size: 14px;
 }
 
-.conteudo-queridinhos img:hover{
-    transform: scale(1.1);
-}
-
 .cardapio{
     margin: 20% 5% 0 5%;
 }
@@ -993,6 +1076,48 @@ h1{
 .botao-proximo, .botao-anterior{
     padding: 15px;
 }
+
+/* ################################## */
+.conteudo-ifood{
+    margin-left: 5%;
+    padding: 0;
+    height: 300px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.conteudo-ifood div:nth-child(2){   
+    margin-left: 15%;
+
+}
+
+.conteudo-ifood div:nth-child(1){   
+    display: none;
+}
+
+.conteudo-ifood h2{
+    font-size: 1.5rem;
+    margin-bottom: 7%;
+}
+
+.conteudo-ifood h3{
+    font-weight: 500;
+    margin-bottom: 13%;
+}
+
+.link-ifood a{
+    background-color: white;
+    text-decoration: none;
+    color: #000000;
+    padding: 15px 20px;
+    border-radius: 17px;
+    font-size: 18px;
+}
+
+.link-ifood-mobile a{
+    display: block;
+}
+/* ############# */
 
 .localizacao{
     margin-top: 20%;

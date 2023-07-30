@@ -1,0 +1,449 @@
+/* #region global */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url(../img/background.jpg);
+    background-color: #f6f3f1;
+    margin: 0 auto;
+    padding: 0;
+}
+
+main{
+    margin: 0 5%;
+}
+
+h4, h5{
+    margin: 0;
+    padding: 0;
+}
+
+/* #endregion global */
+
+/* #region header */
+h1 img{
+    width: 120px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.logo2{
+    display: none;
+}
+
+header button{
+    display: none;
+}
+
+header nav{
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(255, 240, 105);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 1px 20px rgb(121, 121, 121);
+    height: 110px;
+}
+
+header i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+header span{
+    font-size: 19px;
+}
+
+header a,  header ul{
+    margin: 0 15px;
+    list-style: none;
+    font-size: 19px;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+header a:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* #endregion header */
+
+/* #region opções */
+.opcoes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.opcoes h2{
+    font-size: 1.8rem;
+}
+
+.opcoes h3{
+    font-size: 1.5rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: start;
+    justify-content: center;
+}
+
+.item{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.item h4{
+    margin-bottom: 5%;
+    font-size: 1.2rem;
+}
+
+.item h5{
+    font-weight: 300;
+    font-size: 1rem;
+}
+/* #endregion opcções */
+
+/* #region ifood */
+.conteudo-ifood{
+    display: flex;
+    align-items: center;
+    background-color: #faa827;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 50px;
+    height: 300px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.conteudo-ifood div:nth-child(1){
+    justify-content: start;
+}
+
+.conteudo-ifood div:nth-child(2){   
+    margin-left: 20%;
+}
+
+.conteudo-ifood h2{
+    font-size: 1.8rem;
+    margin-bottom: 7%;
+}
+
+.conteudo-ifood h3{
+    font-weight: 500;
+    margin-bottom: 13%;
+}
+
+.link-ifood{
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 17px;
+    font-size: 18px;
+    width: 40%;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.link-ifood:hover{
+    background-color: #faa827;
+    transition: all .2s ease-in;
+}
+
+.link-ifood a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.link-ifood-mobile a{
+    display: none;
+}
+/* #endregion ifood */
+
+/* #region rodape */
+.rodape{
+    background-color: rgb(240, 227, 55);
+    box-shadow: 0 1px 20px rgb(121, 121, 121);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+  
+.rodape div{
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    text-align: center;
+    align-items: center;
+}
+  
+.rodape img{
+    width: 115px;
+    height: 130px;
+}
+  
+.rodape p{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+  
+.rodape h3{
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+  
+.rodape h4{
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+  
+.rodape a{
+    text-decoration: none;
+    color: rgb(34, 30, 30);
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin: 4% 0;
+}
+  
+.rodape a:hover{
+    color: #ffffff;
+    transform: translateY(-4px);
+    transition: all .3s ease-in-out;
+}
+  
+.direitos{
+    background-color: rgb(240, 227, 55);
+    text-align: center;
+    padding: 6px 0;
+}
+/* #endregion rodape */
+
+
+
+
+
+/* #region responsive */
+
+    @media (max-width: 600px){
+    header{
+        margin-top: 5%;
+    }
+    
+    h1 img{
+        display: none;
+    }
+    
+    .logo2{
+        margin-top: -4rem;
+        margin-left: 5%;
+        width: 100px;
+        height: 100px;
+        display: flex;
+    }
+    
+    header ul{
+        margin: 0 15% 0 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    header a{
+        color: #000000;
+    }
+    
+    .menu{
+        display: block;
+        height: 100%;
+        position: fixed;
+        margin: 0;
+        top: 0;
+        right: -350px;
+        max-width: 350px;
+        width: 50%;
+        z-index: 9;    
+        transition: right .6s ease-out;       
+        box-shadow: -1px 0 30px black;    
+        background: url(../img/Animated\ Shape\ \(2\).svg);
+        background-color: rgb(255, 238, 0);          
+    }
+          
+    .menu .links-nav ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+          
+    .menu ul li{
+        margin: 5% 0;
+    }
+          
+    .menu a{
+        letter-spacing: 2px;    
+    }
+          
+    .menu a:hover{
+        color: white;
+    }
+          
+    .abrir-menu{
+        background: url(../img/abrir-menu.png);
+        background-size: cover;
+        display: flex;
+        padding: 20px;
+        border: 0;
+        margin: 5% 0 0 80%;
+        transition: all .5s ease;
+    }
+          
+    .abrir-menu:hover{
+        transform: rotate(180deg);
+    }
+          
+    .fechar-menu{
+        background: url(../img/fechar-menu.png);
+        background-size: cover;
+        display: block;
+        padding: 20px;
+        border: 0;
+        margin-left: 10%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        transition: all .5s ease;
+    }
+          
+    .fechar-menu:hover{
+        transform: rotate(180deg);
+    }
+                
+    .menu-ativo .menu{
+        right: 0;
+    }
+    
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .number{
+        display: none;
+    }
+
+    .opcoes{
+        margin-bottom: 10%;
+    }
+
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .opcoes h4{
+        margin-bottom: 20%;
+    }
+    
+    /* ################################## */
+    .conteudo-ifood{
+        margin-left: 5%;
+        padding: 0;
+        height: 300px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .conteudo-ifood div:nth-child(2){   
+        margin-left: 15%;
+    
+    }
+    
+    .conteudo-ifood div:nth-child(1){   
+        display: none;
+    }
+    
+    .conteudo-ifood h2{
+        font-size: 1.5rem;
+        margin-bottom: 7%;
+    }
+    
+    .conteudo-ifood h3{
+        font-weight: 500;
+        margin-bottom: 13%;
+    }
+    
+    .link-ifood a{
+        background-color: white;
+        text-decoration: none;
+        color: #000000;
+        padding: 15px 20px;
+        border-radius: 17px;
+        font-size: 18px;
+    }
+    
+    .link-ifood-mobile a{
+        display: block;
+    }
+    /* ############# */
+.rodape{
+    flex-direction: column;
+    padding: 0;
+}
+      
+.rodape p{
+    font-size: 15px;
+}
+      
+.rodape h3{
+    font-size: 17px;
+    margin: 0;
+}
+      
+.rodape a{
+    font-size: 14px;
+}
+      
+.rodape div{
+    margin: 0 5%;
+}
+      
+.rodape div:nth-child(1){
+    margin: 10% 40%;
+}
+      
+.rodape div:nth-child(3){
+    margin-left: 50%;
+}
+    
+.direitos h4{
+    font-size: 11px;
+}
+    
+.whatsapp img{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+}
+    
+/* #endregion responsive */
+
+.whatsapp{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: #00ff3700;
+}
