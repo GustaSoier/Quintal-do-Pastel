@@ -819,6 +819,10 @@ h1 img{
     display: flex;
 }
 
+.teste{
+    background-color: white;
+}
+
 header ul{
     margin: 0 15% 0 0;
     display: flex;
@@ -841,7 +845,7 @@ header a{
     width: 50%;
     z-index: 9;    
     transition: right .6s ease-out;       
-    box-shadow: -1px 0 30px black;    
+    box-shadow: -1px 0 20px black;    
     background: url(../img/Animated\ Shape\ \(2\).svg);
     background-color: rgb(255, 238, 0);          
 }
@@ -1163,11 +1167,16 @@ h1{
 }
   
 .rodape div:nth-child(1){
-    margin: 10% 40%;
+    margin: 0 40%;
 }
-  
+
+.rodape div:nth-child(2){
+    display: none;
+}   
+      
 .rodape div:nth-child(3){
-    margin-left: 50%;
+    margin-left: 30%;
+    margin-bottom: 5%;
 }
 
 .direitos h4{

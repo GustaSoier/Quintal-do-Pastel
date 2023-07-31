@@ -273,7 +273,7 @@ header a:hover{
         width: 50%;
         z-index: 9;    
         transition: right .6s ease-out;       
-        box-shadow: -1px 0 30px black;    
+        box-shadow: -1px 0 20px black;    
         background: url(../img/Animated\ Shape\ \(2\).svg);
         background-color: rgb(255, 238, 0);          
     }
@@ -393,6 +393,7 @@ header a:hover{
     .link-ifood-mobile a{
         display: block;
     }
+    
     /* ############# */
 .rodape{
     flex-direction: column;
@@ -417,11 +418,16 @@ header a:hover{
 }
       
 .rodape div:nth-child(1){
-    margin: 10% 40%;
+    margin: 0 40%;
+}
+
+.rodape div:nth-child(2){
+    display: none;
 }
       
 .rodape div:nth-child(3){
-    margin-left: 50%;
+    margin-left: 30%;
+    margin-bottom: 5%;
 }
     
 .direitos h4{
