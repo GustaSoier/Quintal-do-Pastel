@@ -172,7 +172,7 @@ header a:hover{
 
 /* #region rodape */
 .rodape{
-    background-color: rgb(240, 227, 55);
+    background-color: rgb(255, 240, 105);
     box-shadow: 0 1px 20px rgb(121, 121, 121);
     display: flex;
     justify-content: space-evenly;
@@ -222,7 +222,7 @@ header a:hover{
 }
   
 .direitos{
-    background-color: rgb(240, 227, 55);
+    background-color: rgb(255, 240, 105);
     text-align: center;
     padding: 6px 0;
 }

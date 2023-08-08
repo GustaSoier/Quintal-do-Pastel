@@ -60,7 +60,7 @@ header a:hover{
     color: rgb(255, 255, 255);
 }
 
-/* #endregion global */
+/* #endregion header */
 
 /* #region sobre */
 .sobre{
@@ -493,7 +493,7 @@ header a:hover{
 
 /* #region rodape */
 .rodape{
-    background-color: rgb(240, 227, 55);
+    background-color: rgb(255, 240, 105);
     box-shadow: 0 1px 20px rgb(121, 121, 121);
     display: flex;
     justify-content: space-evenly;
@@ -543,7 +543,7 @@ header a:hover{
 }
   
 .direitos{
-    background-color: rgb(240, 227, 55);
+    background-color: rgb(255, 240, 105);
     text-align: center;
     padding: 6px 0;
 }
@@ -660,6 +660,11 @@ header a:hover{
     width: 500px;
     height: 300px;
 }
+
+.conteudo-ifood img{
+    height: 250px;
+}
+
 }
 
 @media (max-width: 925px){
@@ -817,10 +822,6 @@ h1 img{
     width: 100px;
     height: 100px;
     display: flex;
-}
-
-.teste{
-    background-color: white;
 }
 
 header ul{
