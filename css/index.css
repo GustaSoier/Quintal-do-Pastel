@@ -347,7 +347,6 @@ header a:hover{
     width: 200px;
 }
 
-  
 .botoes {
     text-align: center;
     margin-top: 3%;
@@ -389,7 +388,7 @@ header a:hover{
 
 /* #region ifood */
 .conteudo-ifood{
-    margin: 0 10%;
+    margin: 10%;
     display: flex;
     align-items: center;
     background-color: #faa827;
@@ -397,8 +396,6 @@ header a:hover{
     justify-content: center;
     padding: 50px;
     height: 300px;
-    margin-top: 10%;
-    margin-bottom: 10%;
 }
 
 .conteudo-ifood div:nth-child(1){
@@ -662,9 +659,12 @@ header a:hover{
 }
 
 .conteudo-ifood img{
-    height: 250px;
+    height: 550px;
 }
 
+.link-ifood{
+    font-size: 16px;
+}
 }
 
 @media (max-width: 925px){
@@ -701,6 +701,15 @@ header a:hover{
     margin-bottom: 5%;
 }
 
+.conteudo-ifood img{
+    height: 500px;
+}
+
+.link-ifood{
+    padding: 15px 80px;
+    font-size: 15px;
+}
+
 .conteudo-localizacao iframe{
     width: 450px;
 }
@@ -726,6 +735,19 @@ header a:hover{
 .instagram img{
     margin-top: 10%;
     width: 180px;
+}
+
+.conteudo-ifood img{
+    height: 500px;
+}
+
+.conteudo-ifood h3{
+    font-size: 15px;
+}
+
+.link-ifood{
+    width: 75%;
+    padding: 15px 50px;
 }
 
 .conteudo-localizacao iframe{
@@ -1084,30 +1106,39 @@ h1{
 
 /* ################################## */
 .conteudo-ifood{
-    margin-left: 5%;
     padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 300px;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-bottom: 10%;
+}
+
+.conteudo-ifood div{
+    margin: 0 -10;
+}
+
+.conteudo-ifood img{
+    height: 420px;
 }
 
 .conteudo-ifood div:nth-child(2){   
     margin-left: 15%;
-
-}
-
-.conteudo-ifood div:nth-child(1){   
-    display: none;
 }
 
 .conteudo-ifood h2{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 7%;
 }
 
 .conteudo-ifood h3{
     font-weight: 500;
     margin-bottom: 13%;
+    font-size: 13px;
+}
+
+.link-ifood{
+    display: none;
 }
 
 .link-ifood a{
@@ -1116,10 +1147,10 @@ h1{
     color: #000000;
     padding: 15px 20px;
     border-radius: 17px;
-    font-size: 18px;
+    font-size: 11px;
 }
 
-.link-ifood-mobile a{
+.link-ifood-mobile{
     display: block;
 }
 /* ############# */

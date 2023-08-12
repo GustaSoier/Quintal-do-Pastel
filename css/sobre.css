@@ -61,6 +61,21 @@ header a:hover{
 
 /* #endregion header */
 
+/* #region historia*/
+.historia{
+    margin: 0 10%;
+}
+
+.historia div{
+    display: flex; 
+}
+
+.historia div div{
+    flex-direction: column;
+    text-align: center;
+}
+/* #endregion historia */
+
 /* #region rodape */
 .rodape{
     background-color: rgb(255, 240, 105);
