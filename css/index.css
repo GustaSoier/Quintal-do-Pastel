@@ -175,7 +175,7 @@ header a:hover{
 .conteudo-queridinhos img{
     width: 320px;
     height: 65%;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .conteudo-queridinhos div:hover{
@@ -186,7 +186,7 @@ header a:hover{
 .conteudo-queridinhos div{
     text-align: start;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 0 30px 20px 30px;
     margin: 0 2%;
     flex-wrap: wrap;
@@ -462,8 +462,7 @@ header a:hover{
   
 .conteudo-localizacao div{
     max-width: 100%;
-    margin: 0 1%;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .conteudo-localizacao div:nth-child(2){
@@ -1083,12 +1082,13 @@ h1{
 }
 
 .instagram{
-    margin-top: 15%;
+    margin: 10% 0 0 10%;
 }
 
 .instagram div{
     display: flex;
     flex-direction: column;
+
 }
 
 .instagram img{
@@ -1107,38 +1107,37 @@ h1{
 /* ################################## */
 .conteudo-ifood{
     padding: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
     height: 300px;
     margin-top: 20%;
     margin-bottom: 10%;
 }
 
-.conteudo-ifood div{
-    margin: 0 -10;
+.conteudo-ifood img{
+    height: 390px;
+    width: 200px;
 }
 
-.conteudo-ifood img{
-    height: 420px;
+.conteudo-ifood div:nth-child(1){   
+    margin-left: 10%;
 }
 
 .conteudo-ifood div:nth-child(2){   
-    margin-left: 15%;
+    margin-left: 0%;
 }
 
 .conteudo-ifood h2{
-    font-size: 1.2rem;
-    margin-bottom: 7%;
+    /* font-size: 1.2rem;
+    margin-bottom: 7%; */
+    display: none;
 }
 
 .conteudo-ifood h3{
     font-weight: 500;
     margin-bottom: 13%;
     font-size: 13px;
-}
-
-.link-ifood{
-    display: none;
+    margin-top: 0;
 }
 
 .link-ifood a{
@@ -1151,7 +1150,7 @@ h1{
 }
 
 .link-ifood-mobile{
-    display: block;
+    display: none;
 }
 /* ############# */
 
