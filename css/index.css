@@ -983,7 +983,7 @@ h1{
 }
 
 .conteudo-queridinhos div:nth-child(2){
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
 .conteudo-queridinhos h3{
@@ -1115,16 +1115,12 @@ h1{
 }
 
 .conteudo-ifood img{
-    height: 390px;
-    width: 200px;
+    height: 380px;
+    width: 198px;
 }
 
 .conteudo-ifood div:nth-child(1){   
-    margin-left: 10%;
-}
-
-.conteudo-ifood div:nth-child(2){   
-    margin-left: 0%;
+    margin-left: 5%;
 }
 
 .conteudo-ifood h2{
