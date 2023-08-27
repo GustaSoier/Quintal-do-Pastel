@@ -79,7 +79,6 @@ header a:hover{
     font-size: 4rem;
     text-transform: uppercase;
     font-style: italic;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .sobre p{
@@ -435,7 +434,6 @@ header a:hover{
     text-decoration: none;
     color: #000000;
 }
-
 
 .link-ifood-mobile a{
     display: none;
@@ -1139,7 +1137,7 @@ h1{
 
 .link-ifood{
     padding: 0;
-    width: 110%;
+    width: 104%;
 }
 
 .link-ifood a{
