@@ -388,27 +388,36 @@ h1{
 }
 /* #endregion reponsive header */
 
-/* #region responsive localização */
-.localizacao{
-    margin-top: 20%;
+/* #region responsive formulario */
+.form{
+    margin: 0 8% 0 4%;
 }
-    
+/* endregion responsive formulario */
+
+/* #region responsive localização */
+
+.localizacao{
+    margin: 5% 10% 7% 8%;
+}
+
 .localizacao h2{
     font-size: 1.5rem;
 }
-    
+
 .conteudo-localizacao h3{
     margin: 0;
     font-size: 1.2rem;
 }
-    
+
 .conteudo-localizacao p{
     font-size: 14px;
 }
-    
+
 .conteudo-localizacao{
     flex-direction: column-reverse;
+    margin-left: 7%;
 }
+
 /* #endregion responsive localização */
 
 /* #region responsive rodapé */

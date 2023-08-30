@@ -113,7 +113,7 @@ header a:hover{
     display: flex;
     width: 1800px;
     height: 400px;
-    animation: carousel-animation 15s infinite;
+    animation: carousel-animation 15s infinite alternate;
 }
 
 .carousel-container img {
@@ -808,7 +808,7 @@ header span{
 }
 
 .avaliacao{
-    margin: 10% 7.5%;
+    margin: 10% 5%;
 }
 
 .carrossel{
@@ -981,7 +981,7 @@ h1{
 }
 
 .conteudo-queridinhos div:nth-child(2){
-    margin-left: 40%;
+    margin-left: 44%;
 }
 
 .conteudo-queridinhos h3{
@@ -1018,10 +1018,6 @@ h1{
 
 .conteudo-cardapio p{
     font-size: 14px;
-}
-
-.avaliacao{
-    margin: 10% 0%;
 }
 
 .avaliacao h2{
@@ -1080,14 +1076,14 @@ h1{
 }
 
 .instagram{
-    margin: 10% 0 0 10%;
+    margin: 10% 0 0 12%;
 }
 
 .instagram div{
     display: flex;
     flex-direction: column;
-
 }
+
 
 .instagram img{
     margin-left: 0;
@@ -1155,7 +1151,7 @@ h1{
 /* ############# */
 
 .localizacao{
-    margin-top: 20%;
+    margin: 5% 10% 7% 8%;
 }
 
 .localizacao h2{
@@ -1173,6 +1169,7 @@ h1{
 
 .conteudo-localizacao{
     flex-direction: column-reverse;
+    margin-left: 7%;
 }
 
 .rodape{
